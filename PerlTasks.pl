@@ -8,7 +8,7 @@ my @tareas;
 
 sub menu { 
 
-    print "\n==== Gestor de Tareas ====\n"; 
+    print "\n------ Gestión de Tareas ------\n"; 
 
     print "1. Agregar tarea\n"; 
 
@@ -54,7 +54,7 @@ sub listar_tareas {
 
   
 
-    print "\n=== Lista de Tareas ===\n"; 
+    print "\n=== Listado de Tareas ===\n"; 
 
     for my $i (0..$#tareas) { #se hay tareas se muestran una a una
 
@@ -140,7 +140,7 @@ sub main {
 
         } else { #si la opcion no es valida se imprime un mensaje
 
-            print "Opción inválida, intente de nuevo.\n"; 
+            print "Opción no válida, intente de nuevo.\n"; 
 
         } 
 
