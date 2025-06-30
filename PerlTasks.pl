@@ -32,7 +32,8 @@ sub agregar_tarea {
 
     chomp(my $desc = <STDIN>);  #eliminar el '\n' del final de la cadena
 
-    push @tareas, { descripcion => $desc, completada => 0 }; #añadir la tarea a tareas con su descripcion y como no completada por defecto
+    push @tareas, { descripcion => $desc, 
+                    completada => 0 }; #añadir la tarea a tareas con su descripcion y como no completada por defecto
 
     print "Tarea agregada correctamente.\n"; 
 
